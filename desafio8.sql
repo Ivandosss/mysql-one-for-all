@@ -1,6 +1,6 @@
 DELIMITER $$
 CREATE TRIGGER trigger_usuario_delete 
-BEFORE DELETE ON ´user´ 
+BEFORE DELETE ON `user` 
 FOR EACH ROW 
 BEGIN
 DELETE FROM followers WHERE user_id = OLD.user_id;
