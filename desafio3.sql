@@ -1,4 +1,3 @@
-DROP VIEW IF EXISTS historico_reproducao_usuarios;
 CREATE VIEW historico_reproducao_usuarios AS 
 SELECT u.name AS usuario, s.title AS nome
 FROM SpotifyClone.history AS h
