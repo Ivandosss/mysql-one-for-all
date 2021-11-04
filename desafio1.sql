@@ -84,7 +84,7 @@ VALUES
 (8, "Sweetie, Let's Go Wild", 3, 2),
 (9, 'She Knows', 3, 2),
 (10, 'Fantasy For Me', 4, 3),
-(11, 'Celabration Of More', 4, 3),
+(11, 'Celebration Of More', 4, 3),
 (12, 'Rock His Everything', 4, 3),
 (13, 'Home Forever', 4, 3),
 (14, 'Diamond Power', 4, 3),
