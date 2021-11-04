@@ -6,27 +6,27 @@ USE SpotifyClone;
 
 CREATE TABLE plan(
 plan_id INT NOT NULL AUTO_INCREMENT,
-plan VARCHAR(20),
-price INT NOT NULL,
+plan VARCHAR(20) DEFAULT 'gratuito',
+price DECIMAL(3,2),
 PRIMARY KEY (plan_id)
 ) engine = InnoDB;
 
 INSERT INTO plan (plan, price)
 VALUES
-('Gratuito', 0),
+('gratuito', 0),
 ('familiar', 7.99),
 ('universitário', 5.99);
 
 CREATE TABLE `user`(
 user_id INT NOT NULL AUTO_INCREMENT,
 `name` VARCHAR(20) NOT NULL,
-idade INT NOT NULL,
+age INT NOT NULL,
 plan_id INT NOT NULL,
 PRIMARY KEY(user_id),
 FOREIGN KEY(plan_id) REFERENCES plan (plan_id)
 ) ENGINE = InnoDB;
 
-INSERT INTO `user` (`name`, idade, plan_id)
+INSERT INTO `user` (`name`, age, plan_id)
 VALUES
 ('Thati', 23, 1),
 ('Cintia', 35, 2),
