@@ -78,7 +78,7 @@ VALUES
 (2, 'Reflections Of Magic', 1, 1),
 (3, 'Dance With Her Own', 1, 1),
 (4, 'Troubles Of My Inner Fire', 2, 1),
-(5, 'Time', 2, 1),
+(5, 'Time Fireworks', 2, 1),
 (6, 'Magic Circus', 3, 2),
 (7, 'Honey, So Do I', 3, 2),
 (8, "Sweetie, Let's Go Wild", 3, 2),
