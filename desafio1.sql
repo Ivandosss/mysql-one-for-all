@@ -117,6 +117,7 @@ VALUES
 (4, 3),
 (4, 18),
 (4, 11);
+  
 
 CREATE TABLE seguindo_artistas(
 usuario_id INT NOT NULL,
@@ -131,8 +132,8 @@ VALUES
 (1, 1),
 (1, 3),
 (1, 4),
-(2, 1),
 (2, 3),
+(2, 1),
 (3, 2),
 (3, 1),
 (4, 4);
