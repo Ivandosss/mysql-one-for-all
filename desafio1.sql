@@ -35,7 +35,7 @@ VALUES
 
 CREATE TABLE artist(
 artist_id INT NOT NULL AUTO_INCREMENT,
-`name` VARCHAR(20),
+`name` VARCHAR(100),
 PRIMARY KEY (artist_id)
 ) engine = InnoDB;
 
@@ -48,7 +48,7 @@ VALUES
 
 CREATE TABLE album(
 album_id INT NOT NULL AUTO_INCREMENT,
-title VARCHAR(40),
+title VARCHAR(100),
 artist_id INT NOT NULL,
 PRIMARY KEY (album_id),
 FOREIGN KEY (artist_id) REFERENCES artist (artist_id)
@@ -64,7 +64,7 @@ VALUES
 
 CREATE TABLE song(
 song_id INT NOT NULL AUTO_INCREMENT,
-title VARCHAR(40),
+title VARCHAR(100),
 album_id INT NOT NULL,
 PRIMARY KEY (song_id),
 FOREIGN KEY (album_id) REFERENCES album (album_id)
